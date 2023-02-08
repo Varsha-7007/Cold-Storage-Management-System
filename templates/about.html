@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>About Us </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- icons -->
+  <link href="{{url_for('static',filename='assets/img/logosmall.png')}}" rel="icon">
+  <link href="{{url_for('static',filename='assets/img/logo.png')}}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{url_for('static',filename='assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='assets/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
+  <link href="{{url_for('static',filename='assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{url_for('static',filename='assets/css/style.css')}}" rel="stylesheet">
+
+</head>
+<body>
+    <main id="main">
+        <section id="about" class="about">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>About</h2>
+    <p>About Us</p>
+  </div>
+    
+            <div class="row">
+              <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                <img class="m" src="{{url_for('static',filename='assets/img/5.png')}}" width="600" height="600" class="img-fluid" alt="">
+                <img class="m" src="{{url_for('static',filename='assets/img/bg.png')}}" width="600" height="250" class="img-fluid" alt="">
+                <img class="m" src="{{url_for('static',filename='assets/img/Cold-storage-plant.jpg')}}" width="800" height="600" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                <h1>Welcome to KVR Cold Storage.</h1>
+                <img src="{{url_for('static',filename='assets/img/logo.png')}}" alt="" class="img-fluid">
+                <p class="fst-italic">
+                    Cold storage is a facility that primarily stores items that are short-lived and highly likely to get spoilt under normal conditions. These may include fruits, vegetables, fish, meat etc. These food items are stored under optimum temperature(primarily low) and humid environment as required for individual items. Almost all cold storage rooms are designed such that these properties are pre-configured based on what is being stored. Some cold rooms are made such that these properties are adjustable.
+                </p>
+                <h3>Construction and Working of a Cold Storage Plant</h3>
+                <p class="fst-italic">
+                    A cold-storage facility works on a refrigeration system which helps maintain an adequate temperature and environment as per the specifications of each item being stored. These are the main components of a cold storage room:
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i><strong>Compressor</strong> :It is the main component that runs the cold room. It is the only device that needs the energy to run. The compressor consumes almost all the power in a cold room. It is used to raise the temperature and pressure of the refrigerant vapour coming out of the Evaporator. As the pressure is increased, the boiling point increases and the compressor can condense the refrigerant(for example, ammonia) at the temperature of the condenser.</li>
+                  <li><i class="ri-check-double-line"></i><strong>Condenser</strong>  : It is required to remove the heat from the refrigerant and the circulating water. It carries out phase change of the condenser from gas to liquid at high temperature and pressure. The condenser acts as a heat sink, and its heat exchange efficiency determines the efficiency of the cold storage plant.</li>
+                  <li><i class="ri-check-double-line"></i><strong>Receiver</strong>  : The high-pressure liquid condensate is stored here. It is here that the refrigerant comes after phase change from the condenser. After it has reached the receiver component, the liquid refrigerant goes to the expansion valve to decrease the temperature and pressure.</li>
+                  <li><i class="ri-check-double-line"></i><strong>Expansion Valve</strong>  : It reduces the temperature and pressure of the refrigerant using a throttling device. The throttling process occurs through friction and there is a change in the temperature and pressure of the refrigerant. Its pressure changes from that in the Receiver to that in the Evaporator.</li>
+                  <li><i class="ri-check-double-line"></i><strong>Evaporator</strong> : The cyclic process that decreases the temperature of the items stored takes place here. It takes heat from the storage compartment or atmosphere that is supposed to be cooled. This heat is then used to vaporize the liquid refrigerant. This way, the food items are cooled and preserved.</li>
+                  <li><i class="ri-check-double-line"></i><strong>Blowers</strong> : The cooled air is spread across the room through the convection process, thus, achieving the desired temperature of the room.</li>
+                </ul>
+                <p>
+                    In short, the refrigerant’s boiling point is reduced by increasing its temperature and pressure by the compressor. Heat is removed from the refrigerant as it is changed from gaseous to the liquid state by the condenser. Now the refrigerant is transferred to the reservoir for storage. Further, the refrigerant is moved to an expansion valve to reduce the temperature and pressure in the liquid state. The last step takes place in the Evaporator, where the heat from the surroundings is used to change the refrigerant again to a gaseous state, thus causing the cooling effect. The blower circulates this cool air.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <!-- Vendor JS Files -->
+<script src="{{url_for('static',filename='assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
+<script src="{{url_for('static',filename='assets/vendor/aos/aos.js')}}"></script>
+<script src="{{url_for('static',filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{url_for('static',filename='assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+<script src="{{url_for('static',filename='assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+<script src="{{url_for('static',filename='assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+<script src="{{url_for('static',filename='assets/vendor/php-email-form/validate.js')}}"></script>
+
+<!-- Template Main JS File -->
+<script src="{{url_for('static',filename='assets/js/main.js')}}"></script>
+</body>
+</html>
