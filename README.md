@@ -10,7 +10,6 @@ Front-end:HTML,CSS,JS. Back-end: Python(FLASK framework) and phpMyAdmin is used 
 ![bdetails](https://user-images.githubusercontent.com/113261323/217600703-12623043-7b25-4418-a243-b2175c8735f4.png)
 ![reviews](https://user-images.githubusercontent.com/113261323/217600883-735ce23b-0d8a-4b0a-865c-e169b6ad0806.png)
 ![user](https://user-images.githubusercontent.com/113261323/217601103-709c234f-1290-4575-bbb6-66a59d6e7818.png)
-![usection](https://user-images.githubusercontent.com/113261323/217601247-3
+![usection](https://user-images.githubusercontent.com/113261323/217601247-38e9ba12-6315-4bec-b806-0c35146fcb53.png)
 ![contact](https://user-images.githubusercontent.com/113261323/217601395-9421f848-67a1-4376-983c-6425e3ef5d45.png)
-8e9ba12-6315-4bec-b806-0c35146fcb53.png)
 ![team](https://user-images.githubusercontent.com/113261323/217601620-716b3567-cafe-4f78-8832-5db70fe146a3.png)
